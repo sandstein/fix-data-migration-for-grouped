@@ -1,0 +1,16 @@
+{
+  "name": "snm/magento2-module-fixdatamigrationforgrouped",
+  "description": "This module fixes issue 574",
+  "require": {
+    "php": "~7.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Snm\\FixDataMigrationForGrouped\\": ""
+    }
+  }
+}
