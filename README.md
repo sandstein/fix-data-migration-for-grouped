@@ -5,7 +5,7 @@ a bug, which removes the "apply_to" fields for (e.g.) price.
 This causes the price field to appear for grouped products. See this 
 [issue](https://github.com/magento/data-migration-tool/issues/574).
 
-#How to install
+# How to install
 
 There is currently no direct composer integration, so put
 
@@ -18,7 +18,7 @@ There is currently no direct composer integration, so put
 to the "repositories" section and
 
 ```
- "snm/magento2-module-fixdatamigrationforgrouped": "dev-master",
+ "snm/magento2-module-fixdatamigrationforgrouped": "0.0.1",
 ```
 
 to the "require" section in your composer.json. 
